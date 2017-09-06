@@ -5,31 +5,32 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12" id="animal-button">
-				<button type="button" class="btn btn-dark" animal="cat" id="animal">Cat</button>
-				<button type="button" class="btn btn-dark" animal="fox" id="animal">Fox</button>
-				<button type="button" class="btn btn-dark" animal="dog" id="animal">Dog</button>
-				<button type="button" class="btn btn-dark" animal="turtle" id="animal">Turtle</button>
-				<button type="button" class="btn btn-dark" animal="rat" id="animal">Rat</button>
+				<button type="button" class="btn btn-dark animal" animal="cat" id="animal">Cat</button>
+				<button type="button" class="btn btn-dark animal" animal="fox" id="animal">Fox</button>
+				<button type="button" class="btn btn-dark animal" animal="dog" id="animal">Dog</button>
+				<button type="button" class="btn btn-dark animal" animal="turtle" id="animal">Turtle</button>
+				<button type="button" class="btn btn-dark animal" animal="rat" id="animal">Rat</button>
 			</div>
 		</div>
 		<div class="row">
 			<div id="images" class="col-lg-8">
 			</div>
-			<div class="input-group">
-		      <input type="text" class="form-control" id="input" placeholder="Add button..." aria-label="Add button...">
-		      <span class="input-group-btn">
-		        <button class="btn btn-secondary" type="button" id="animal-add">Go!</button>
-		      </span>
-		    </div>
+			<div class="col-lg-4">
+				<div class="input-group">
+			      <input type="text" class="form-control" id="input" placeholder="Add button..." aria-label="Add button...">
+			      <span class="input-group-btn">
+			        <button class="btn btn-secondary" type="button" id="animal-add">Go!</button>
+			      </span>
+			    </div>
+			</div>
 		</div>
 	</div>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="assets/javascript/script.js"></script>
 </body>
 </html>
